@@ -1,0 +1,115 @@
+/* bisognerebbe sempre farlo all'inizio di un documento css
+
+* {
+	padding: 0em;
+	margin: 0em;
+}
+
+*/
+body{
+	margin-left:17%;
+	margin-right: 17%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+	font-size: 1em;
+	font-family: "Comic sans MS";
+	height:100%;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+
+#header{
+	color: navy;
+	background-color:#F5E050;
+	text-align: center;
+	margin: 0px;
+	padding: 1px;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: black;
+}
+
+#path{
+	background-color: #F5E050;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: black;
+	border-top:0px;
+	padding: 0.6em;
+}
+
+#menu{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float:left;
+	
+
+}
+
+#menu a{
+	display:block;
+	margin: 5px;
+	padding: 5px;
+}
+
+
+#body{
+	text-align: center;
+	padding: 2em;
+	margin-left: 17%;
+	border-style: solid;
+	border-left-width: 1px;
+	border-right-width:0px;
+	border-color: black;
+	border-bottom:0px;
+	border-top: 0px;
+
+	min-height: 100%;
+	
+}
+
+#body p{
+	text-align: left;
+}
+
+
+
+#footer{
+	padding: 0.7em;
+	text-align: center;
+	clear: both;
+	font-size: 0.7em;
+
+	border-style: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: black;
+}
+
+
+
+#footer span{
+	display: inline-block;
+	vertical-align: center;
+	margin-bottom: 1em;
+}
+
+#footer img{
+	padding: 0px;
+}
+
+#currentLink {
+	margin-top: 1em;
+	background-image: url('/Volumes/KINGS 32 GB/sito Minions/materiale/images/minion_funny.png');
+	background-position: left center;
+	background-size: 1.2em;
+	background-repeat: no-repeat;
+	padding-left: 1.5em;
+}
